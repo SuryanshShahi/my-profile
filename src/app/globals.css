@@ -1,26 +1,145 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --primary: #ffb400;
+  --primary-rgb: 255, 180, 0;
+  --bg-main: #111111;
+  --bg-card: #252525;
+  --bg-card-hover: #2e2e2e;
+  --bg-badge: #2b2a2a;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-accent: rgba(255, 180, 0, 0.3);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Theme color presets */
+[data-theme="yellow"] {
+  --primary: #ffb400;
+  --primary-rgb: 255, 180, 0;
+}
+[data-theme="blue"] {
+  --primary: #4169e1;
+  --primary-rgb: 65, 105, 225;
+}
+[data-theme="green"] {
+  --primary: #72b626;
+  --primary-rgb: 114, 182, 38;
+}
+[data-theme="purple"] {
+  --primary: #6957af;
+  --primary-rgb: 105, 87, 175;
+}
+[data-theme="red"] {
+  --primary: #ee3158;
+  --primary-rgb: 238, 49, 88;
+}
+[data-theme="goldenrod"] {
+  --primary: #e58c14;
+  --primary-rgb: 229, 140, 20;
+}
+[data-theme="magenta"] {
+  --primary: #df327e;
+  --primary-rgb: 223, 50, 126;
+}
+[data-theme="orange"] {
+  --primary: #fa5b0f;
+  --primary-rgb: 250, 91, 15;
+}
+[data-theme="yellowgreen"] {
+  --primary: #9acd32;
+  --primary-rgb: 154, 205, 50;
+}
+[data-theme="blueviolet"] {
+  --primary: #8a2be2;
+  --primary-rgb: 138, 43, 226;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-main);
+  color: #ffffff;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: var(--font-poppins), sans-serif;
+  selection-background-color: var(--primary);
+  selection-color: #ffffff;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* Animated watermark & section header styling - Tunis 1:1 */
+.section-title-container {
+  position: relative;
+  text-align: center;
+  padding: 70px 0 50px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .section-title-container {
+    padding: 40px 0 30px;
+  }
+}
+
+.watermark-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: clamp(3.5rem, 10vw, 110px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-left: 10px; /* Symmetrically balances letter-spacing */
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.07);
+  user-select: none;
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 0;
+  margin: 0;
+}
+
+.section-main-title {
+  position: relative;
+  z-index: 10;
+  font-size: clamp(2rem, 5vw, 56px);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* Clip path for Tunis diagonal accent shape */
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+@media (max-width: 1024px) {
+  .clip-diagonal {
+    clip-path: none;
+  }
 }

@@ -1,0 +1,340 @@
+{
+  "personalInfo": {
+    "fullName": "Suryansh Shahi",
+    "firstName": "Suryansh",
+    "lastName": "Shahi",
+    "role": "Full Stack Engineer",
+    "tagline": "Full Stack Engineer with 3.5+ years of experience specializing in building high-performance web & mobile applications, distributed microservices, event-driven architectures, and agentic AI integrations.",
+    "age": "24 Years",
+    "nationality": "Indian",
+    "freelance": "Available",
+    "address": "Gurugram, India",
+    "phone": "+91 7376190196",
+    "email": "suryansh06shahi@gmail.com",
+    "languages": "English, Hindi",
+    "resumeUrl": "/Suryansh_Shahi_Resume.pdf",
+    "socials": {
+      "github": "https://github.com/SuryanshShahi",
+      "linkedin": "https://www.linkedin.com/in/suryanshshahi/",
+      "twitter": "https://x.com/Suryans03664983",
+      "instagram": "https://www.instagram.com/suryansh_shahi/",
+      "whatsapp": "https://wa.me/917376190196?text=Hi%20Suryansh,%20I%20would%20like%20to%20connect!"
+    },
+    "stats": [
+      {
+        "count": "3.5+",
+        "label": "Years Experience"
+      },
+      {
+        "count": "50+",
+        "label": "Completed Projects"
+      },
+      {
+        "count": "28+",
+        "label": "Happy Customers"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "NEXT.JS / REACT",
+      "percentage": 95
+    },
+    {
+      "name": "TYPESCRIPT / JS",
+      "percentage": 92
+    },
+    {
+      "name": "NODE.JS / NESTJS",
+      "percentage": 90
+    },
+    {
+      "name": "REACT NATIVE",
+      "percentage": 86
+    },
+    {
+      "name": "TAILWIND CSS / UI",
+      "percentage": 94
+    },
+    {
+      "name": "REDIS / MONGODB",
+      "percentage": 88
+    },
+    {
+      "name": "KAFKA & WEBSOCKETS",
+      "percentage": 86
+    },
+    {
+      "name": "DOCKER & AWS",
+      "percentage": 82
+    }
+  ],
+  "timeline": [
+    {
+      "year": "DEC 2025 – PRESENT",
+      "title": "Full Stack Engineer",
+      "place": "Universa Analytics | FinTech",
+      "description": "Architected a real-time stock analytics dashboard with WebSocket data streaming for sub-second UI updates. Reduced page load from 11s → 3s (73% faster) via web workers, memoization & lazy loading. Integrated Agentic AI chatbot with ML team & built custom PDF templating engine.",
+      "type": "experience"
+    },
+    {
+      "year": "JULY 2023 – NOV 2025",
+      "title": "Software Engineer",
+      "place": "Aeria | PropTech",
+      "description": "Published React Native apps & web applications serving 65k+ DAU. Built OCR scanner, real-time geolocation, accelerometer & push notifications. Maintained Event Management microservice, integrated Razorpay/Paytm payment gateways, boosted API speed by 60% with Redis & DB indexing, and mentored 5+ engineers.",
+      "type": "experience"
+    },
+    {
+      "year": "JAN 2023 – JUN 2023",
+      "title": "Software Engineer (Intern)",
+      "place": "Squareboat | Service-based Agency",
+      "description": "Developed accessible, high-performance UI flows for SBI Cards (State Bank of India). Delivered 10+ production client projects, engineered a 30+ component library using FTD for FifthTry platform, and configured Sentry production monitoring for fast incident response.",
+      "type": "experience"
+    },
+    {
+      "year": "2019 – 2023",
+      "title": "B.Tech. in Computer Science and Engineering",
+      "place": "Gautam Buddha University | CGPA: 8.68",
+      "description": "Graduated with 8.68 CGPA with specialized coursework in Data Structures, Algorithms, Distributed Systems, Database Management, and Full Stack Software Engineering.",
+      "type": "education"
+    },
+    {
+      "year": "OPEN SOURCE",
+      "title": "Open Source Contributor",
+      "place": "FifthTry & FOSSASIA",
+      "description": "Actively contributed to open-source developer tooling and ecosystem platforms by enhancing features, fixing upstream bugs, and collaborating in open code review cycles.",
+      "type": "education"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-wobli",
+      "title": "Wobli 3D Miniatures",
+      "category": "web",
+      "categoryLabel": "3D E-Commerce & Customizer",
+      "image": "/projects/wobli_thumb.png",
+      "originalImage": "/projects/wobli3d.png",
+      "client": "Wobli Studio",
+      "languages": ["Next.js", "Three.js", "React", "Tailwind CSS", "Razorpay"],
+      "previewUrl": "https://wobli3d.vercel.app/",
+      "date": "2025 - 2026",
+      "description": "Next-generation 3D printing and custom figurine e-commerce platform. Features photo-to-miniature workflows, interactive 3D model customization, real-time order tracking, and integrated payments."
+    },
+    {
+      "id": "proj-dance-studio",
+      "title": "Rhythm Dance Studio",
+      "category": "web",
+      "categoryLabel": "Creative Arts & Booking",
+      "image": "/projects/dance_studio_thumb.png",
+      "originalImage": "/projects/dance_studio.png",
+      "client": "Rhythm Studio",
+      "languages": ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      "previewUrl": "https://dance-studio-beta.vercel.app/",
+      "date": "2025",
+      "description": "High-octane web platform for a premier urban dance studio. Features dynamic video heroes, interactive class schedules, instructor profiles, event galleries, and instant class reservation flows."
+    },
+    {
+      "id": "proj-kineticx",
+      "title": "Kinetix 3D Footwear Lab",
+      "category": "web",
+      "categoryLabel": "Interactive 3D & WebGL",
+      "image": "/projects/kineticx_thumb.png",
+      "originalImage": "/projects/kineticx.png",
+      "client": "Aero-Propulsion Lab",
+      "languages": ["React", "Three.js", "WebGL", "GSAP", "Tailwind CSS"],
+      "previewUrl": "https://kineticx-3d.vercel.app/",
+      "date": "2025",
+      "description": "Cutting-edge 3D product showcase featuring 360° spatial rotation, scroll-driven chassis deconstruction, interactive carbon plate telemetry, and physics-accurate material rendering."
+    },
+    {
+      "id": "proj-pebbleboat",
+      "title": "Pebbleboat Technologies",
+      "category": "web",
+      "categoryLabel": "Digital Product Studio",
+      "image": "/projects/pebbleboat_thumb.png",
+      "originalImage": "/projects/pebbleboat.png",
+      "client": "Pebbleboat Inc.",
+      "languages": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+      "previewUrl": "https://pebbleboat.com/",
+      "date": "2024 - 2025",
+      "description": "Modern agency platform showcasing design-first full-stack development, mobile app prototypes, microservices architecture, client case studies, and automated lead capture pipelines."
+    },
+    {
+      "id": "proj-1",
+      "title": "Oeuvre Official",
+      "category": "web",
+      "categoryLabel": "Luxury E-Commerce",
+      "image": "/projects/oeuvre_thumb.png",
+      "originalImage": "/projects/oeuvre.png",
+      "client": "Oeuvre Official",
+      "languages": ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      "previewUrl": "https://oeuvre0.netlify.app/",
+      "date": "2024",
+      "description": "Elegant design and smooth functionality, with a focus on an immersive browsing experience for handcrafted luxury pieces and modern apparel collections."
+    },
+    {
+      "id": "proj-2",
+      "title": "Hangers India",
+      "category": "web",
+      "categoryLabel": "Retail & E-Commerce",
+      "image": "/projects/hangers_thumb.png",
+      "originalImage": "/projects/hangers.png",
+      "client": "Hangers India",
+      "languages": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+      "previewUrl": "https://www.hangersindia.com",
+      "date": "2024",
+      "description": "Intuitive navigation and a professional e-commerce showcase engineered for premium clothing hangers, customized wardrobes, and retail accessories."
+    },
+    {
+      "id": "proj-3",
+      "title": "The OG Burger",
+      "category": "web",
+      "categoryLabel": "Food & Restaurant",
+      "image": "/projects/og_thumb.png",
+      "originalImage": "/projects/og.png",
+      "client": "The OG Burger",
+      "languages": ["Next.js", "React", "Tailwind CSS", "UI/UX"],
+      "previewUrl": "https://og-burger.netlify.app/",
+      "date": "2024",
+      "description": "Giving OG Burger a cool, funky, and foodie brand aesthetic to attract customers, featuring online ordering workflows and responsive layout."
+    },
+    {
+      "id": "proj-4",
+      "title": "Kiddle School",
+      "category": "web",
+      "categoryLabel": "EdTech & Learning",
+      "image": "/projects/kiddle_thumb.png",
+      "originalImage": "/projects/kiddle.png",
+      "client": "Kiddle School",
+      "languages": ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+      "previewUrl": "https://kiddle.school",
+      "date": "2024",
+      "description": "A modern educational web app with interactive design and joyful animations centered around children's learning, creativity, and school admissions."
+    },
+    {
+      "id": "proj-5",
+      "title": "Global Scholar",
+      "category": "web",
+      "categoryLabel": "Education Consultancy",
+      "image": "/projects/global_thumb.png",
+      "originalImage": "/projects/global.png",
+      "client": "Global Scholar UK",
+      "languages": ["Next.js", "React", "Tailwind CSS", "SEO"],
+      "previewUrl": "https://globalscholar.co.uk",
+      "date": "2024",
+      "description": "Built a polished, informative international platform for Global Scholar, offering a seamless portal for students and educators to explore academic opportunities, university admissions, and resources."
+    },
+    {
+      "id": "proj-6",
+      "title": "AixGrow",
+      "category": "web",
+      "categoryLabel": "Growth & Analytics",
+      "image": "/projects/aixgrow_thumb.png",
+      "originalImage": "/projects/aixgrow.png",
+      "client": "AixGrow",
+      "languages": ["Next.js", "React", "Tailwind CSS", "Analytics"],
+      "previewUrl": "https://www.aixgrow.com/",
+      "date": "2024",
+      "description": "Growth acceleration platform featuring interactive metric dashboards, marketing funnel tracking, and automated client insights."
+    },
+    {
+      "id": "proj-7",
+      "title": "POS System",
+      "category": "web",
+      "categoryLabel": "Web App & Backend",
+      "image": "/projects/pos_system.jpg",
+      "originalImage": "/projects/pos_system.jpg",
+      "client": "Retail Enterprise",
+      "languages": ["Next.js", "NestJS", "WebSocket", "Kafka", "Redis", "MongoDB"],
+      "previewUrl": "https://github.com/SuryanshShahi",
+      "date": "2025 - 2026",
+      "description": "Full-stack point-of-sale solution for event-driven order processing, real-time inventory synchronization, and analytics reporting built with Next.js, Nest.js, Redis, MongoDB, and Kafka."
+    },
+    {
+      "id": "proj-8",
+      "title": "Real-time Chat App",
+      "category": "web",
+      "categoryLabel": "Web & Realtime",
+      "image": "/projects/chat_app.jpg",
+      "originalImage": "/projects/chat_app.jpg",
+      "client": "Communication Platform",
+      "languages": ["Next.js", "WebSocket", "Node.js", "Redis", "MongoDB", "AWS"],
+      "previewUrl": "https://github.com/SuryanshShahi",
+      "date": "2025",
+      "description": "Scalable real-time messaging application supporting private and group chats, media uploads, full message history search, online presence indicators, and instant push notifications backed by AWS."
+    },
+    {
+      "id": "proj-9",
+      "title": "Automated Video Recorder",
+      "category": "web",
+      "categoryLabel": "Developer Tool",
+      "image": "/projects/video_recorder.jpg",
+      "originalImage": "/projects/video_recorder.jpg",
+      "client": "Developer Tooling",
+      "languages": ["Next.js", "Playwright", "TypeScript", "Node.js"],
+      "previewUrl": "https://github.com/SuryanshShahi",
+      "date": "2025",
+      "description": "Autonomous tool built to record smooth scrolling website product demos. Accepts a URL queue, allows customizable scroll velocities & easing curves, supports mid-recording stop, and auto-delivers MP4 recordings per site."
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-1",
+      "title": "Optimizing Web Performance: Slashing Page Load by 73% (11s → 3s)",
+      "date": "Jan 2026",
+      "category": "Web Performance",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
+      "excerpt": "A hands-on breakdown of how we diagnosed main-thread bottlenecks, offloaded heavy computations to Web Workers, implemented list virtualization, and used surgical React memoization to slash initial page load from 11.2s down to 2.9s.",
+      "content": [
+        "## The 11-Second Bottleneck: Context & Challenge",
+        "When our engineering team took ownership of the real-time financial analytics platform, page load times were alarming. On initial load, users were stuck staring at skeleton screens for **nearly 11.2 seconds**.\n\nThe application had to ingest real-time WebSocket feeds of 10,000+ stock price ticks, calculate technical indicators (RSI, EMA, Bollinger Bands) on the fly, and display live data grids. Every single streaming tick was triggering cascading re-renders across parent containers, choking the main UI thread and causing severe frame drops during user scrolling.",
+        "## Step 1: Profiling First (No Guesswork)",
+        "Before writing a single line of optimization, we fired up the **Chrome DevTools Performance Profiler** and **React DevTools Profiler**. The timeline recordings quickly revealed two massive bottlenecks:\n\n* **Main-Thread Saturation**: Mathematical transformations and array manipulations inside render cycles were producing continuous long CPU tasks (>450ms).\n* **Monolithic Bundle Size**: Heavy charting modules (ECharts, Canvas renderers) and modal dialogues were statically imported into the root chunk, blowing the uncompressed bundle up to **3.8MB**.\n* **Excessive DOM Mounts**: 500+ active table rows with live tickers and SVG sparklines were mounted simultaneously.",
+        "## Step 2: Feature-First Architecture & Shared Primitives",
+        "We started by restructuring the repository into a modular, domain-driven structure. This isolated feature logic and eliminated circular dependency trees:\n\n* **`src/features/*`**: Self-contained domain modules (e.g. `orderbook/`, `stock-analytics/`, `portfolio/`).\n* **`src/shared/*`**: Atomic UI building blocks (`Button`, `InputField`, `CardWrapper`, `Text`, `Chip`).\n* **`src/workers/*`**: Dedicated Web Worker scripts isolated from the UI runtime.\n\nThis eliminated redundant component duplications and cut unused utility CSS by 35%.",
+        "## Step 3: Offloading Heavy Calculations to Web Workers",
+        "The highest-impact architectural win was moving compute-intensive indicator calculations off the main thread entirely.\n\nWe spawned a dedicated background Web Worker that ingests raw WebSocket ticks, computes the moving averages and technical indicators in the background, and returns formatted, display-ready data via structured cloning:",
+        "```typescript\n// src/workers/indicatorWorker.ts\nself.onmessage = (e: MessageEvent<{ ticks: PriceTick[]; period: number }>) => {\n  const { ticks, period } = e.data;\n  \n  // Heavy statistical computation runs off the UI thread\n  const emaValues = calculateExponentialMovingAverage(ticks, period);\n  const rsi = calculateRelativeStrengthIndex(ticks);\n  \n  // Post lightweight calculated result back to React UI thread\n  self.postMessage({ emaValues, rsi, timestamp: Date.now() });\n};\n```",
+        "```typescript\n// src/hooks/useIndicatorWorker.ts\nimport { useEffect, useState } from 'react';\n\nexport const useIndicatorWorker = (ticks: PriceTick[]) => {\n  const [indicators, setIndicators] = useState<IndicatorData | null>(null);\n\n  useEffect(() => {\n    const worker = new Worker(new URL('../workers/indicatorWorker.ts', import.meta.url));\n    \n    worker.onmessage = (event: MessageEvent<IndicatorData>) => {\n      setIndicators(event.data);\n    };\n\n    worker.postMessage({ ticks, period: 14 });\n    return () => worker.terminate();\n  }, [ticks]);\n\n  return indicators;\n};\n```",
+        "## Step 4: Windowed List Virtualization",
+        "Rather than mounting 500+ DOM nodes for active stock watchlists, we implemented **windowed virtualization** using `@tanstack/react-virtual`.\n\nNow, regardless of whether a watchlist has 100 or 10,000 tickers, only the **18 rows currently in viewport** (+ 3 overscan rows) are ever created in the DOM tree:",
+        "```typescript\n// src/features/watchlist/VirtualStockTable.tsx\nimport { useVirtualizer } from '@tanstack/react-virtual';\nimport React, { useRef } from 'react';\n\nexport const VirtualStockTable: React.FC<{ rows: StockRow[] }> = ({ rows }) => {\n  const parentRef = useRef<HTMLDivElement>(null);\n\n  const rowVirtualizer = useVirtualizer({\n    count: rows.length,\n    getScrollElement: () => parentRef.current,\n    estimateSize: () => 52,\n    overscan: 3,\n  });\n\n  return (\n    <div ref={parentRef} className=\"h-[600px] overflow-auto border border-white/10 rounded-xl\">\n      <div style={{ height: `${rowVirtualizer.getTotalSize()}px`, position: 'relative' }}>\n        {rowVirtualizer.getVirtualItems().map((virtualRow) => {\n          const item = rows[virtualRow.index];\n          return (\n            <div\n              key={item.symbol}\n              style={{\n                position: 'absolute',\n                top: 0,\n                left: 0,\n                width: '100%',\n                height: `${virtualRow.size}px`,\n                transform: `translateY(${virtualRow.start}px)`,\n              }}\n            >\n              <StockTableRow data={item} />\n            </div>\n          );\n        })}\n      </div>\n    </div>\n  );\n};\n```",
+        "## Step 5: Surgical Memoization (`useMemo`, `useCallback`, `React.memo`)",
+        "We ran a re-render audit and resolved prop instability across high-frequency components:\n\n* **`useCallback`**: Wrapped event handlers to prevent passing new function instances on every tick.\n* **`useMemo`**: Cached filtered collections, sort orders, and currency conversions.\n* **`React.memo` with custom comparison**: Ensured child row components only re-render if their specific price or change percentage actually changed:",
+        "```typescript\n// Memoized row component with custom comparator\nexport const StockTableRow = React.memo<StockRowProps>(({ data }) => {\n  return (\n    <div className=\"flex items-center justify-between px-4 py-3 hover:bg-white/5 transition-colors\">\n      <span className=\"font-bold text-white\">{data.symbol}</span>\n      <span className={data.change >= 0 ? 'text-emerald-400' : 'text-rose-400'}>\n        ${data.price.toFixed(2)} ({data.change > 0 ? '+' : ''}{data.change.toFixed(2)}%)\n      </span>\n    </div>\n  );\n}, (prev, next) => {\n  return prev.data.price === next.data.price && prev.data.change === next.data.change;\n});\n```",
+        "## Step 6: Code Splitting & Lazy Route Loading",
+        "We converted heavy secondary components (interactive chart engines, PDF statement export generators, and filter modals) to dynamic imports using `next/dynamic`:\n\n```typescript\nimport dynamic from 'next/dynamic';\n\n// Heavy 400KB charting suite loaded strictly on-demand\nconst AdvancedChartModal = dynamic(\n  () => import('@/features/charts/AdvancedChartModal'),\n  { \n    ssr: false, \n    loading: () => <div className=\"h-96 animate-pulse bg-white/5 rounded-xl\" /> \n  }\n);\n```",
+        "## Real-World Results & Key Takeaways",
+        "After rolling these architectural upgrades into production, the benchmark improvements were dramatic:\n\n* ⚡ **Initial Page Load**: Slashed from **11.2s → 2.9s** (**73% faster**)\n* 🎯 **INP (Interaction to Next Paint)**: Reduced from **410ms → 32ms**\n* 📦 **Active DOM Nodes**: Dropped from **4,200 → 320 nodes** (**92% reduction**)\n* 🚀 **Frame Rate**: Steady **60 FPS** during volatile real-time market data surges\n\n> **Core Rule**: Never optimize on intuition alone. Profile first with DevTools, shift heavy compute off the main thread with Web Workers, virtualize high-density UI lists, and maintain strict referential stability across your React component tree."
+      ],
+      "published": true
+    },
+    {
+      "id": "blog-2",
+      "title": "Building Real-Time Event-Driven Architectures with Kafka, Redis & WebSockets",
+      "date": "Nov 2025",
+      "category": "Backend & Systems",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1000&auto=format&fit=crop",
+      "excerpt": "How to scale sub-second market data streaming and event processing across microservices using Kafka message queues and Redis pub/sub.",
+      "content": [
+        "When delivering real-time updates to tens of thousands of concurrent users, traditional HTTP polling collapses under server load.",
+        "We break down our event-driven architecture pairing Apache Kafka for resilient, durable message ingestion and Redis Pub/Sub for low-latency WebSocket client distribution.",
+        "This architecture guarantees message order, handles burst traffic without dropping packets, and delivers sub-second client updates."
+      ],
+      "published": false
+    },
+    {
+      "id": "blog-3",
+      "title": "Integrating Agentic AI Chatbots into Production Web Applications",
+      "date": "Aug 2025",
+      "category": "AI & Full Stack",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1000&auto=format&fit=crop",
+      "excerpt": "Lessons learned collaborating with ML teams to bridge conversational agentic workflows with typed UI components and secure database query execution.",
+      "content": [
+        "Modern users expect intelligent natural language query interfaces rather than static multi-level filter menus.",
+        "In this post, we discuss how we built an Agentic AI chatbot allowing conversational data queries with strict authorization barriers and deterministic JSON output schemas."
+      ],
+      "published": false
+    }
+  ]
+}
