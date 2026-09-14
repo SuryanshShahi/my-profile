@@ -59,26 +59,26 @@ const PortfolioSection: React.FC<PortfolioSectionProps> = ({
           <div
             key={project.id}
             onClick={() => onSelectProject(project)}
-            className="group relative h-72 sm:h-80 rounded-2xl overflow-hidden bg-[#252525] border border-white/5 cursor-pointer shadow-lg hover:shadow-2xl hover:shadow-[rgba(var(--primary-rgb),0.2)] transition-all duration-500 hover:-translate-y-1.5"
+            className="group relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-[#1c1c1e] border border-white/10 cursor-pointer shadow-lg hover:shadow-2xl hover:shadow-[rgba(var(--primary-rgb),0.25)] transition-all duration-500 hover:-translate-y-2"
           >
             {/* Background Image */}
             <Image
               src={project.image}
               alt={project.title}
               fill
-              className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+              className="object-cover object-center transition-transform duration-700 ease-out group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
 
             {/* Hover Overlay */}
-            <div className="absolute inset-0 bg-[var(--primary)]/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center z-10">
-              <div className="w-12 h-12 rounded-full bg-white text-[var(--primary)] flex items-center justify-center text-lg mb-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 shadow-md">
+            <div className="absolute inset-0 bg-gradient-to-t from-[var(--primary)]/95 via-[var(--primary)]/80 to-[var(--primary)]/60 opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col items-center justify-center p-6 text-center z-10 backdrop-blur-[2px]">
+              <div className="w-14 h-14 rounded-full bg-white text-[var(--primary)] flex items-center justify-center text-xl mb-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 shadow-xl">
                 <FaPlus />
               </div>
-              <Text as="h4" size="xl" type="bold" className="text-white uppercase mb-1">
+              <Text as="h4" size="xl" type="bold" className="text-white uppercase mb-2 tracking-wide drop-shadow-sm">
                 {project.title}
               </Text>
-              <Text as="span" size="xs" className="text-white/90 uppercase tracking-widest font-semibold">
+              <Text as="span" size="xs" className="text-white/95 uppercase tracking-widest font-semibold px-3 py-1 rounded-full bg-black/20 backdrop-blur-sm">
                 {project.categoryLabel}
               </Text>
             </div>
