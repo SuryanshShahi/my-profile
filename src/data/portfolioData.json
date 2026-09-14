@@ -108,6 +108,19 @@
   ],
   "projects": [
     {
+      "id": "proj-chakkiwala",
+      "title": "Chakkiwaala",
+      "category": "mobile",
+      "categoryLabel": "Hyperlocal Marketplace App",
+      "image": "/projects/chakkiwala_thumb.jpg",
+      "originalImage": "/projects/chakkiwala_thumb.jpg",
+      "client": "Chakkiwaala Marketplace",
+      "languages": ["React Native", "Node.js", "Express", "MongoDB", "Redux"],
+      "previewUrl": "https://github.com/SuryanshShahi",
+      "date": "2025 - 2026",
+      "description": "Chakkiwaala is a growing marketplace app that brings together local chakkis (flour mills) and customers on a single platform. Enables customers to discover nearby chakkis, place orders directly, and track status in real-time across four fulfillment stages: Started Preparing, In Progress, Out for Delivery, and Delivered. Features a dedicated merchant dashboard for instant order processing and status dispatch."
+    },
+    {
       "id": "proj-wobli",
       "title": "Wobli 3D Miniatures",
       "category": "web",
