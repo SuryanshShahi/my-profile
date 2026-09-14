@@ -19,7 +19,7 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-black/80 backdrop-blur-md animate-in fade-in duration-200">
       <div
-        className="relative w-full max-w-3xl max-h-[90vh] overflow-y-auto bg-[#252525] border border-white/10 rounded-2xl p-6 sm:p-8 shadow-2xl animate-in zoom-in-95 duration-200"
+        className="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto bg-[#252525] border border-white/10 rounded-2xl p-6 sm:p-8 shadow-2xl animate-in zoom-in-95 duration-200"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
@@ -41,13 +41,13 @@ const ProjectModal: React.FC<ProjectModalProps> = ({ project, onClose }) => {
         </div>
 
         {/* Project Image */}
-        <div className="relative w-full h-64 sm:h-80 rounded-xl overflow-hidden mb-6 border border-white/10">
+        <div className="relative w-full aspect-video sm:aspect-[16/9.5] rounded-xl overflow-hidden mb-6 border border-white/10 bg-black/40 shadow-inner flex items-center justify-center">
           <Image
             src={project.originalImage || project.image}
             alt={project.title}
             fill
-            className="object-cover"
-            sizes="(max-width: 768px) 100vw, 800px"
+            className="object-contain"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 900px"
           />
         </div>
 
