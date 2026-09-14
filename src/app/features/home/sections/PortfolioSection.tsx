@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { FaPlus } from "react-icons/fa6";
+import { FaPlus, FaMobileScreen, FaGlobe } from "react-icons/fa6";
 import { ProjectItem } from "../types";
 import Text from "@/shared/heading/Text";
 import Chip from "@/shared/Chip";
@@ -61,6 +61,21 @@ const PortfolioSection: React.FC<PortfolioSectionProps> = ({
             onClick={() => onSelectProject(project)}
             className="group relative aspect-[3/4] w-full rounded-2xl overflow-hidden bg-[#1c1c1e] border border-white/10 cursor-pointer shadow-lg hover:shadow-2xl hover:shadow-[rgba(var(--primary-rgb),0.25)] transition-all duration-500 hover:-translate-y-2"
           >
+            {/* Floating Type Badge */}
+            <div className="absolute top-3.5 right-3.5 z-20 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/65 backdrop-blur-md border border-white/15 text-white shadow-lg text-[11px] font-semibold tracking-wider uppercase transition-transform duration-300 group-hover:scale-105 pointer-events-none">
+              {project.category === "mobile" ? (
+                <>
+                  <FaMobileScreen className="text-[var(--primary)] text-xs shrink-0" />
+                  <span>App</span>
+                </>
+              ) : (
+                <>
+                  <FaGlobe className="text-[var(--primary)] text-xs shrink-0" />
+                  <span>Website</span>
+                </>
+              )}
+            </div>
+
             {/* Background Image */}
             <Image
               src={project.image}
