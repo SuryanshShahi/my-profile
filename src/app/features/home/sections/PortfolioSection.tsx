@@ -71,7 +71,7 @@ const PortfolioSection: React.FC<PortfolioSectionProps> = ({
               ) : (
                 <>
                   <FaGlobe className="text-[var(--primary)] text-xs shrink-0" />
-                  <span>Website</span>
+                  <span>Web</span>
                 </>
               )}
             </div>
